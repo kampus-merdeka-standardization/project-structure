@@ -1,8 +1,18 @@
 # Artifact Naming
 
 ## Filename
-projectname-version-optional(SNAPSHOT).jar ||
-projectname-version.exe ||
+
+Filename merupakan nama file dari hasil project yang telah di-build. Seperti contoh pada bahasa `java` akan menghasilkan file `.jar` dengan penamaan seperti
+
+`projectname-version.jar`
+
+atau
+
+`projectname-version-optional(SNAPSHOT).jar`
+
+Dan pada bahasa pemrograman lain seperti `Go` akan menghasilkan nama file seperti
+
+`projectname-version.exe`
 
 ## Docker name
 Ini adalah aturan penamaan docker name
