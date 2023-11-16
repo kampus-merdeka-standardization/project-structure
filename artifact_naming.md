@@ -28,6 +28,13 @@ Berikut adalah contoh docker name:
 - tsel-marketing-luna-account-scheduler:v2.1.1
 
 ## Destination
-/directorat/appsname/dev ||
-/directorat/appsname/uat ||
-/directorat/appsname/prod
+
+lokasi direktori di server tempat artifact akan ditempatkan setelah proses build dan deployment. Struktur direktori biasanya dibagi berdasarkan lingkungan deployment seperti Development (dev), User Acceptance Testing (uat), atau Production (prod). 
+Pemisahan ini memastikan bahwa ada isolasi yang jelas antara lingkungan dan memudahkan pengelolaan versi aplikasi yang berbeda dalam siklus hidup pengembangan software.
+
+ketentuan seperti ini : 
+- /directorat/appsname/dev
+- /directorat/appsname/uat
+- /directorat/appsname/prod
+
+
