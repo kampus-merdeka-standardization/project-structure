@@ -4,7 +4,7 @@ Project Structure Definition
 ## Structure Example
 
 ```
-tsel-directorat-appsname-domainname-service/
+**t**-directorat-appsname-domainname-service/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -27,7 +27,7 @@ tsel-directorat-appsname-domainname-service/
 │   │   │       │   ├── impl
 │   │   │       │   │   └── ContohServiceImpl.java /* interface implementation */
 │   │   │       │   └── ContohService.java /* interface */
-│   │   │       ├── TselDirectoratAppsnameDomainnameServiceApplication.java
+│   │   │       ├── **t**DirectoratAppsnameDomainnameServiceApplication.java
 │   │   │       └── util/
 │   │   │           └── ContohUtil.java
 │   │   └── resources/
@@ -68,11 +68,11 @@ tsel-directorat-appsname-domainname-service/
 Berikut adalah struktur proyek yang disarankan untuk proyek Spring Boot:
 
 1. **Nama Project**: 
-    - tsel-directorat-appsname-domainname-service, atau
-    - tsel-directorat-appsname-domainname-scheduler
+    - **t**-directorat-appsname-domainname-service, atau
+    - **t**-directorat-appsname-domainname-scheduler
 
 2. **src/main/java**: Direktori ini berisi kode sumber utama Anda.
-    - **com/nama/group**: Gantilah ini dengan nama domain organisasi. misal `com.telkomsel`.
+    - **com/nama/group**: Gantilah ini dengan nama domain organisasi. misal `com.**t**`.
         - **controller**: Berisi kontroler Spring MVC yang menangani permintaan HTTP. Kelas-kelas ini biasanya dianotasi dengan `@Controller`
         
         - **service**: Berisi kelas _service_, yaitu kelas yang berisi logika bisnis. Kelas-kelas ini biasanya dianotasi dengan `@Service`
