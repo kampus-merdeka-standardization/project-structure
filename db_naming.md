@@ -21,3 +21,15 @@ Contoh:
 - users
 
 ## Column Naming
+
+Untuk penamaan kolom, ada beberapa hal yang perlu diperhatikan:
+
+- Nama kolom harus mencerminkan jenis data dan makna yang disimpan di dalamnya. Misalnya, jika kolom berisi nama depan pengguna, maka nama kolomnya bisa `first_name`. Gunakanlah bahasa inggris.
+
+- Penulisan dilakukan dengan `snake_case`, yaitu penulisan dengan huruf kecil dan menggunakan _undescore_ `_` sebagai pemisah.
+
+- Nama kolom harus singkat namun jelas, menghindari penggunaan singkatan yang tidak baku atau kepanjangan yang tidak perlu. Sebaiknya gunakan kata-kata umum yang mudah dimengerti dan diingat.
+
+- Nama kolom harus unik dalam tabel, tidak boleh ada dua kolom yang memiliki nama yang sama. Hal ini akan memudahkan dalam menulis query dan menghindari ambiguitas.
+
+- Apabila ada kolom sebagai representasi dari baris pada tabel lain, gunakan dengan format `namatabel_namakolom`, misal `customer_id`.
